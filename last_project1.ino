@@ -3,8 +3,8 @@
 #include <WiFi.h>
 #include <WebServer.h> //web sunucu oluşturmak için eklendi
 
-const char *ssid = "Kablonet Netmaster-2DC3-G";
-const char *password = "Evcil321*";   // ESP32'nin internet ağına bağlanması için gerekli bilgiler
+const char *ssid = "**********";
+const char *password = "*********";   // ESP32'nin internet ağına bağlanması için gerekli bilgiler
 
 MAX30105 particleSensor; // MAX30105 particleSensor ifadesi, MAX30105 modelinde bir parçacık sensörünü temsil eden bir nesne (object) oluşturuyor. Bu nesne, MAX30105 sensörünü kontrol etmek, verileri okumak ve sensörle etkileşimde bulunmak için kullanılır.
 WebServer server(80); //  ifadesi ise bir web sunucusu nesnesi oluşturur. Bu nesne, ESP8266 veya ESP32 gibi WiFi yetenekli mikrodenetleyiciler üzerinde bir HTTP sunucusu başlatmak ve yönetmek için kullanılır. Bu sunucu, cihazınıza gelen HTTP isteklerini işler ve belirli URL'lere yanıtlar gönderir.
